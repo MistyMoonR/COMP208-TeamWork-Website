@@ -35,4 +35,42 @@ Meeting Note 和 Requirement analysis 等等之类的在word里多人协同完�
 [Matter.js](https://brm.io/matter-js/)      
 [P5.js](https://p5js.org/)       
 [Mathjs](https://mathjs.org/)  
-[Threejs](https://threejs.org/)
+[Threejs](https://threejs.org/)     
+
+-----------
+
+### Git教程 
+没有Github账号建议注册一个哈，学会这个技能这个将会对你以后学习还是工作有很大帮助！(不懂为啥学校不教这个玩意)        
+
+[Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)     
+[Git魔法书](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch01.html)
+
+#### macos部分       
+打开终端        
+先安装brew，如果已经安装可以跳过        
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+如果不行的话换国内源
+```
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+brew安装后可以直接安装git，并且检查是否安装完毕
+```
+brew install git
+
+git --version 
+```
+
+创建一个全局用户名、全局邮箱作为配置信息，这里的name和email替换为你的Github的name和邮件，注意双引号不要去掉
+```
+git config --global user.name "your_name"  
+
+git config --global user.email "your_email@youremail.com"
+```
+生产SSH key(这里解释下你的电脑和github服务器连接，需要有一个私钥来确认身份)
+```
+ssh-keygen -t rsa -C "your_email@youremail.com"
+```
+然后把id_rsa.pub里面全部内容复制粘贴到Github上SSH keys
