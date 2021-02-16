@@ -9,9 +9,11 @@
 
 ### 工作流程介绍
 
-Meeting Note 和 Requirement analysis 等等之类的在word里多人协同完成          
+Meeting Note 在word里多人共同完成并检查，因为这个是文档类型，占分高，最好用office的Word来处理，最后转成PDF放到学校网站。一周提交一次
 
-文档和代码之类的记录在 [Github](https://github.com/MistyMoonR/COMP208-Group41) 上，大家刚开始别嫌Github麻烦哈，等到了后期版本管理可以给大家省去不少不必要的麻烦。
+23号DDL： Requirement analysis  五页PDF，最好提前设计一下排版，统一风格。       
+
+文档和代码之类的记录在 [Github](https://github.com/MistyMoonR/COMP208-Group41) 上，大家刚开始别嫌麻烦哈，等到了后期版本管理可以给大家省去不少不必要的麻烦。
 
 聊天：Wechat 或者 Teams
 
