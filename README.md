@@ -7,18 +7,20 @@
 |---|---|---|---|---|---|---
 
 
-### 工作流程介绍
+## **工作流程介绍**
 
 Meeting Note 在word里多人共同完成并检查，因为这个是文档类型，占分高，最好用office的Word来处理，最后转成PDF放到学校网站。一周提交一次
 
-23号DDL： Requirement analysis  五页PDF，最好提前设计一下排版，统一风格。       
+23号DDL： Requirement analysis  五页PDF，**最好提前设计一下排版，统一风格。**     
 
 文档和代码之类的记录在 [Github](https://github.com/MistyMoonR/COMP208-Group41) 上，大家刚开始别嫌麻烦哈，等到了后期版本管理可以给大家省去不少不必要的麻烦。
 
-聊天：Wechat 或者 Teams
+聊天：Wechat 或者 Teams (Teams起码能装装样子应付学校)       
+
+
 
 -----------
-
+### DDL 安排        
 - [x] MEETING NOTES (REWIEW WORTH 8%)  
 - [ ] REQUIREMENT ANALYSIS (REWIEW WORTH 12%) *Tue, 23 Feb 2021*
 - [ ] DESIGN (REVIEW WORTH 15%) *Fri, 19 Mar 2021*
@@ -30,9 +32,11 @@ Meeting Note 在word里多人共同完成并检查，因为这个是文档类型
 
 
 
-推荐网站:     
-[报告查一查](http://report.seedsufe.com/#/report) 方便查资料(copy and paste梭哈)
+### 推荐网站:     
+[报告查一查](http://report.seedsufe.com/#/report) 方便查资料(copy and paste梭哈)        
+[Draw.io](draw.io) 画流程图，UML，啥图都行，关键免费        
 
+搭建网站要用的东西      
 [Caddy](https://caddyserver.com/)       
 [Matter.js](https://brm.io/matter-js/)      
 [P5.js](https://p5js.org/)       
@@ -41,13 +45,14 @@ Meeting Note 在word里多人共同完成并检查，因为这个是文档类型
 
 -----------
 
-### Git教程 
-没有Github账号建议注册一个哈，学会这个技能这个将会对你以后学习还是工作有很大帮助！(不懂为啥学校不教这个玩意)        
+### Git教程 (还未完成，先不急)
+没有Github账号建议注册一个哈，学会这个技能这个将会对你以后学习或者工作都有很大帮助！(不懂为啥学校不教这个玩意)      
 
+下面网站介绍Git的用处            
 [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)     
 [Git魔法书](http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch01.html)
 
-#### macos部分       
+#### macos部分 -未完成
 打开终端        
 先安装brew，如果已经安装可以跳过        
 ```
