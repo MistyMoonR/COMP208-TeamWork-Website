@@ -1,0 +1,46 @@
+version: '3.3'
+
+services:
+  traefik:
+    container_name: traefik
+    image: traefik:v2.0
+    command:
+            # - "--api.dashboard=true"
+      - "--api.insecure=true"
+      - "--accesslog=true"
+      - "--providers.docker=true"
+      - "--entryPoints.web.address=:80"
+      - "--entryPoints.websecure.address=:443"
+      - "--certificatesResolvers.le.acme.email=<email address>""
+      - "--certificatesResolvers.le.acme.storage=acme.json"
+      - "--certificatesResolvers.le.acme.dnsChallenge.provider=cloudflare"
+      - "--certificatesResolvers.le.acme.dnsChallenge.delayBeforeCheck=0"
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+      - 8080:8080
+    networks:
+      - web
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./acme.json:/acme.json
+    labels:
+      # Redirect all HTTP to HTTPS permanently
+      - traefik.http.routers.http_catchall.rule=HostRegexp(`{any:.+}`)
+      - traefik.http.routers.http_catchall.entrypoints=web
+      - traefik.http.routers.http_catchall.middlewares=https_redirect
+      - traefik.http.middlewares.https_redirect.redirectscheme.scheme=https
+      - traefik.http.middlewares.https_redirect.redirectscheme.permanent=true
+      - traefik.docker.network=web
+
+    environment:
+      - CF_API_EMAIL=<CLOUDFLARE_USER>
+      - CF_API_KEY=<CLOUDFLARE_GLOBAL_API_KEY>
+
+networks:
+  web:
+    external: true
+
+
+
