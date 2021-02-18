@@ -21,6 +21,9 @@ Caddy 是一个多功能的 HTTP web服务器，并且使用Let's Encrypt提供�
 
 不知道用Ubuntu server搭还是 docker梭哈？ 头大。。。
 
+Elementor https://www.zhanzhangb.com/1011.html        
+搭配这个主题 https://wordpress.org/themes/hello-elementor/
+
 
 -----------
 搭建网站要用的东西      

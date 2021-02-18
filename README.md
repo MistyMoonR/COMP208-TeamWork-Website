@@ -21,11 +21,11 @@ Meeting Note 在word里多人共同完成并检查，因为这个是文档类型
 -----------
 ### DDL 安排        
 - [x] MEETING NOTES (REWIEW WORTH 8%)  
-- [ ] REQUIREMENT ANALYSIS (REWIEW WORTH 12%) *Tue, 23 Feb 2021*
-- [ ] DESIGN (REVIEW WORTH 15%) *Fri, 19 Mar 2021*
-- [ ] IMPLEMENTATION (DEMO WORTH 15%) *Tue, 4 May 2021*
-- [ ] FINAL DOCUMENTATION (ASSESSMENT WORTH 30%)    
-还有20%分不知道去哪了
+- [ ] REQUIREMENT ANALYSIS (REWIEW WORTH 12%) *23 Feb 2021*
+- [ ] DESIGN (REVIEW WORTH 15%) *19 Mar 2021*
+- [ ] IMPLEMENTATION (DEMO WORTH 15%) *4 May 2021*
+- [ ] FINAL DOCUMENTATION (ASSESSMENT WORTH 30%) *14 May 2021*      
+- [ ] Individual Submission (ASSESSMENT WORTH 20%) *14 May 2021*    
 
 -----------
 
