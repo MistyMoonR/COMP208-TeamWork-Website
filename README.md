@@ -71,7 +71,45 @@ Meeting Note 在word里多人共同完成并检查，因为这个是文档类型
 
 
 -----------
+## 日程+任务安排
 
+Lecute 5 Design specifies ---`Design Review (19/3/2021)`       
+- Process design 
+- Data design 
+- Interface design 
+- Design documents
+
+ Lecture 6 Managing Software Quality      
+- Applicationof amethodology       
+- Formal technical Reviews      
+- Testing       
+- Enforcement of Standards      
+- Control of change     
+- Measurement       
+- Record keeping and reporting.     
+
+Lecture 7 Presentation Skills --- `这中间应该是有线上会议`
+- planning 
+- Rehearse
+- Slides(PPT)
+
+Lecture 8 Demonstrations, Portfolios, and Individual Submissions ---`Demo Documentation (4/5/2021)`
+- Project report
+- Design Documentation
+- Test Documentation
+- Some sample screen shots of your application
+
+Lecture 9 Academic Writing  ---`Portfolio (14/5/2021)`
+- Members and Roles
+- Application Description
+- What was Produced
+- Evaluation
+- Extensions
+- Professional Issues
+- Bibliography
+
+
+-----------
 ### 推荐网站:     
 [报告查一查](http://report.seedsufe.com/#/report) 方便查资料(copy and paste梭哈)        
 [Draw.io](draw.io) 画流程图，UML，啥图都行，关键免费        
@@ -121,3 +159,9 @@ git config --global user.email "your_email@youremail.com"
 ssh-keygen -t rsa -C "your_email@youremail.com"
 ```
 然后把id_rsa.pub里面全部内容复制粘贴到Github上SSH keys
+
+
+
+sklearn.datasets.make_classification
+
+
